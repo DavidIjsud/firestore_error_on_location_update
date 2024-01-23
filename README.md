@@ -1,20 +1,23 @@
 # firestore_error
 
-A new mini demostration project done with dart and swift to show the error and crash that ios shows while data is being sent to firebase
-at the same time that dart side send data to firebase as well.
+A new mini demonstration project done with Dart and Swift to show the error and crash that iOS shows while data is being sent to Firebase at the same time that Dart side sends data to Firebase as well.
 
 ## Getting Started
 
-
 To replicate this error:
 
-1.- Run the project.
-2.- Tap the button : "Request location authorization".
-3.- on modal that request the location authorization select "While in use the app".
-4.- then Select "Always".
-5.- Close the app (no background) , kill it , terminate it.
-6.- Open the app
-7.- Tap de button Send data to firebase from flutter
+1. Run the project.
 
-NOTE: i realized that this crashs happen while the location send data to firebase on swift side and at the same time dart send data to firebase as well.
+2. Tap the button: "Request location authorization".
 
+3. On the modal that requests the location authorization, select "While in use the app".
+
+4. Then select "Always".
+
+5. Close the app (no background), kill it, terminate it.
+
+6. Open the app.
+
+7. Tap the button "Send data to Firebase from Flutter".
+
+**Note:** I realized that these crashes happen while the location sends data to Firebase on the Swift side and at the same time Dart sends data to Firebase as well.
