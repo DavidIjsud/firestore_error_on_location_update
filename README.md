@@ -20,4 +20,7 @@ To replicate this error:
 
 7. Tap the button "Send data to Firebase from Flutter".
 
+
+NOTE: if you are using emulator , add free way drive on the emulator and if you are using physical device try to move more.
+
 **Note:** I realized that these crashes happen while the location sends data to Firebase on the Swift side and at the same time Dart sends data to Firebase as well.
